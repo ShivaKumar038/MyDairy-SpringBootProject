@@ -37,7 +37,7 @@ public class EntryController {
 	
 	@PutMapping("/")
 	public Entry updateEntry(@RequestBody Entry entry) {
-		return entryServiceInterface.updateEntry(entry);
+		return entryServiceInterface.updateEntry(entry);// added a comment
 	}
 	
 	@PutMapping("/{id}")
