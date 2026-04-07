@@ -56,7 +56,7 @@ public class EntryController {
 		
 		String desc = entry.getDescription();
 		Date dt = entry.getDate();
-		long usrid = entry.getUserid();
+		long usrid = entry.getUserid();// added another comment
 		
 		if(desc != null && desc.length()<0 ) {
 			entry1.setDescription(desc);
